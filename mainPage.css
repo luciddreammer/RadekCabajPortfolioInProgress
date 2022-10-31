@@ -11,10 +11,7 @@ footer {
 }
 
 #top-bar {
-    position: sticky;
-    width: 100%;
-    top: 2vw;
-    background-color: white;
+
 }
 
 #big-square {
@@ -61,6 +58,18 @@ footer {
     border-bottom: 1px solid black;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    position: sticky;
+    width: 100%;
+    top: 2vw;
+    background-color: white;
+}
+
+#navbar-topbar {
+    position: sticky;
+    top: -0.7vw;
+    background-color: white;
+    height: 4vw;
+    width: 100%;
 }
 
 #navbar-el {
