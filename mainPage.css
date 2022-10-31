@@ -1,0 +1,93 @@
+@font-face {
+    font-family: grotesk;
+    src: url("NeueHaasDisplay.ttf");
+  }
+body {
+    margin:2vw;
+}
+
+footer {
+    font-family: grotesk;
+}
+
+#top-bar {
+    position: sticky;
+    width: 100%;
+    top: 2vw;
+    background-color: white;
+}
+
+#big-square {
+    height: 2000px;
+    width: 10px;
+}
+
+#title {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#name {
+    font-family: grotesk;
+    font-size: 5vw;
+    margin-right: 1vw;
+}
+
+#freelance {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-family: grotesk;
+    font-size: 2vw;
+    font-style: italic;
+    padding-bottom: 1vw;
+}
+
+#navbar-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#navbar-right {
+    font-family: grotesk;
+    display: flex;
+    justify-content: right;
+    font-size: 2vw;
+}
+
+#navbar {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#navbar-el {
+    font-family: grotesk;
+    font-size: 2vw;
+}
+
+#collaborate-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#collaborate-text {
+    font-size: 6vw;
+}
+
+#contact {
+    text-align: right;
+    font-size: 1.7vw;
+}
+
+#back-to-top {
+    max-width: 12vw;
+    font-size:2vw;
+}
+
+#back-to-top:hover {
+    cursor: pointer;
+}
