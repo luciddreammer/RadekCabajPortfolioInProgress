@@ -21,23 +21,24 @@ footer {
 
 #title {
     display: flex;
-    margin-bottom: -5px;
+    margin-bottom: -0.5vw;
 }
 
 #name {
     font-family: grotesk;
-    font-size: 5vw;
+    font-size: 7vw;
     margin-right: 1vw;
 }
+
 
 #freelance {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     font-family: grotesk;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-style: italic;
-    padding-bottom: 1vw;
+    padding-bottom: 1.3vw;
 }
 
 #navbar-left {
@@ -46,30 +47,38 @@ footer {
     align-items: stretch;
 }
 
+#language {
+    margin-top: 0.22vw;
+}
+
 #navbar-right {
     font-family: grotesk;
     display: flex;
     justify-content: right;
-    font-size: 2vw;
+    font-size: 1.5vw;
+
 }
 
 #navbar {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 0.145vw solid black;
+    border-bottom: 0.145vw solid black;
     display: grid;
     grid-template-columns: 2fr 1fr;
     position: sticky;
     width: 100%;
     top: 40vw;
     background-color: white;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
 }
 
 #navbar-topbar {
     position: sticky;
-    top: -0.1vw;
+    top: 0vw;
     background-color: white;
-    height: 3.5vw;
+    height: 4vw;
     width: 100%;
+
 }
 
 #navbar-el {
@@ -112,7 +121,7 @@ footer {
 
 #short-description {
     font-family: grotesk;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 #selected-works {
@@ -120,7 +129,7 @@ footer {
     display: flex;
     flex-direction: row;
     font-family: grotesk;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 #view-more {
@@ -129,7 +138,7 @@ footer {
     align-items: flex-end;
     margin-left: 3vw;
     font-family: grotesk;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-style: italic;
     padding-bottom: 0.27vw;
 }
@@ -152,9 +161,9 @@ footer {
 }
 
 #design-process-description {
-    max-width: 30vw;
+    max-width: 35vw;
     font-family: grotesk;
-    font-size: 1.25vw;
+    font-size: 1.4vw;
     font-style: italic;
 }
 
@@ -171,6 +180,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
   }
 
   
