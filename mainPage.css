@@ -100,3 +100,105 @@ footer {
 #back-to-top:hover {
     cursor: pointer;
 }
+
+
+
+
+/* Content of Page */
+
+#content {
+    margin-top: 1.5vw;
+}
+
+#short-description {
+    font-family: grotesk;
+    font-size: 2.5vw;
+}
+
+#selected-works {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    font-family: grotesk;
+    font-size: 2.5vw;
+}
+
+#view-more {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 3vw;
+    font-family: grotesk;
+    font-size: 1.3vw;
+    font-style: italic;
+    padding-bottom: 0.27vw;
+}
+
+#selected-work-description {
+    margin-top: 15vw;
+}
+#work-example-img {
+    margin-top: 2vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#description-split {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#design-process-description {
+    max-width: 30vw;
+    font-family: grotesk;
+    font-size: 1.25vw;
+    font-style: italic;
+}
+
+#all-process {
+    font-family: grotesk;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+  /* Arrows */
+  #content-single-process {
+    border-top: 0.13vw solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  
+  .arrow {
+    /* margin: 25px; */
+    /* height: 12px; */
+    /* width: 12px; */
+    margin-left: 10vw;
+    margin-right: 2.3vw;
+  }
+  .arrow::after {
+    border-bottom-style: solid;
+    border-bottom-width: 0.2vw;
+    border-right-style: solid;
+    border-right-width: 0.2vw;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 1.7vw;
+    height: 1vw;
+    /* left: 0;
+    top: 0px; */
+    width: 1vw;
+  }
+  .arrow.arrow-bar::before {
+    transform: rotate(-45deg);
+  }
+  .arrow.is-bottom {
+    transform: rotate(45deg);
+  }
+  
