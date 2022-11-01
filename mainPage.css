@@ -1,6 +1,6 @@
 @font-face {
     font-family: grotesk;
-    src: url("NeueHaasDisplay.ttf");
+    src: url("FontThin.ttf");
   }
 body {
     margin:2vw;
@@ -105,10 +105,6 @@ footer {
 #back-to-top:hover {
     cursor: pointer;
 }
-
-
-
-
 /* Content of Page */
 
 #content {
@@ -179,12 +175,8 @@ footer {
     padding-top: 0.8vw;
     padding-bottom: 0.8vw;
   }
-
   
   .arrow {
-    /* margin: 25px; */
-    /* height: 12px; */
-    /* width: 12px; */
     margin-left: 10vw;
     margin-right: 2.3vw;
   }
@@ -198,8 +190,6 @@ footer {
     position: absolute;
     bottom: 1.7vw;
     height: 1vw;
-    /* left: 0;
-    top: 0px; */
     width: 1vw;
   }
   .arrow.arrow-bar::before {
@@ -208,4 +198,6 @@ footer {
   .arrow.is-bottom {
     transform: rotate(45deg);
   }
+
+  /* Arrows */
   
