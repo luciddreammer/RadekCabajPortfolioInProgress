@@ -166,19 +166,34 @@ footer {
     flex-direction: column;
 }
 
+#invisible-text-one, #invisible-text-two, #invisible-text-three, #invisible-text-four {
+    /* visibility: visible; */
+    display: none;
+    font-family: grotesk;
+    max-width: 45vw;
+    margin-left: 2vw;
+}
+
   /* Arrows */
   #content-single-process {
-    border-top: 0.13vw solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* padding-top: 0.8vw; */
+    /* padding-bottom: 0.8vw; */
+  }
+
+  #content-with-invisible-text {
     padding-top: 0.8vw;
     padding-bottom: 0.8vw;
+    border-top: 0.13vw solid black;
+    width: 50vw;
   }
   
   .arrow {
     margin-left: 10vw;
     margin-right: 2.3vw;
+    cursor: pointer;
   }
   .arrow::after {
     border-bottom-style: solid;
