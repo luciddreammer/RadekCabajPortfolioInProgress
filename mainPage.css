@@ -10,10 +10,6 @@ footer {
     font-family: grotesk;
 }
 
-#top-bar {
-
-}
-
 #big-square {
     height: 2000px;
     width: 10px;
@@ -63,7 +59,7 @@ footer {
     border-top: 0.145vw solid black;
     border-bottom: 0.145vw solid black;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.05fr 1fr;
     position: sticky;
     width: 100%;
     top: 40vw;
@@ -121,7 +117,7 @@ footer {
 
 #short-description {
     font-family: grotesk;
-    font-size: 3vw;
+    font-size: 2.6vw;
 }
 
 #selected-works {
