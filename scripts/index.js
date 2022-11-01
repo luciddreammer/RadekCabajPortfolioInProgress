@@ -15,3 +15,8 @@ function invisibleText(id) {
         textId.style.display = "block";
     }
 }
+
+const languageChange = document.getElementById("language");
+
+languageChange.innerHTML = "<span style='font-weight: bold;' >eng</span>/pl"
+

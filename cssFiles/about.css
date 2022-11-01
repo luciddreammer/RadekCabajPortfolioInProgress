@@ -1,90 +1,3 @@
-@font-face {
-     font-family: grotesk;
-    src: url("FontThin.ttf");
-  }
-body {
-    margin:2vw;
-    font-family: grotesk;
-     
-}
-
-footer {
-     
-}
-
-#href-normal-text {
-    color: black;
-    text-decoration: none;
-}
-
-#title {
-    display: flex;
-    margin-bottom: -0.5vw;
-}
-
-#name {
-     
-    font-size: 7vw;
-    margin-right: 1vw;
-}
-
-#freelance {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-     
-    font-size: 2.5vw;
-    font-style: italic;
-    padding-bottom: 1.3vw;
-}
-
-#navbar-left {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-#language {
-    margin-top: 0.22vw;
-}
-
-#navbar-right {
-     
-    display: flex;
-    justify-content: right;
-    font-size: 1.5vw;
-
-}
-
-#navbar {
-    border-top: 0.145vw solid black;
-    border-bottom: 0.145vw solid black;
-    display: grid;
-    grid-template-columns: 2.05fr 1fr;
-    position: sticky;
-    width: 100%;
-    top: 40vw;
-    background-color: white;
-    padding-top: 0.3vw;
-    padding-bottom: 0.3vw;
-}
-
-#navbar-topbar {
-    position: sticky;
-    top: 0vw;
-    background-color: white;
-    height: 4vw;
-    width: 100%;
-
-}
-
-#navbar-el {
-     
-    font-size: 2vw;
-}
-
-
-
 /* /////////////// */
 /* Content of Page */
 
@@ -188,8 +101,6 @@ footer {
     font-style: italic;
   }
 
-  /* /////////////// */
-  /* Footer */
   .arrow {
     margin-left: 10vw;
     margin-right: 2.3vw;
@@ -212,61 +123,7 @@ footer {
   }
   .arrow.is-bottom {
     transform: rotate(45deg);
-  }
-
-  #collaborate-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#collaborate-text {
-    font-size: 6vw;
-}
-
-#contact {
-    text-align: right;
-    font-size: 1.7vw;
-}
-
-#back-to-top {
-    max-width: 12vw;
-    font-size:2vw;
-}
-
-#back-to-top:hover {
-    cursor: pointer;
-}
-
-
-  
-  .bottom-arrow-line {
-    margin-top: 3.7vw;
-    width: 48vw;
-    background: black;
-    height: 0.3vw;
-  }
-
-  /* .bottom-arrow {
-    margin-left: 79.8vw;
-    position: absolute;
-    display: flex;
-    width: 48vw;
-  }
-  .bottom-arrow::after {
-    border-bottom-style: solid;
-    border-bottom-width: 0.3vw;
-    border-right-style: solid;
-    border-right-width: 0.3vw;
-    content: "";
-    position: absolute;
-    height: 2vw;
-    width: 2vw;
-    top: -18.62vw;
-  }
-  .bottom-arrow.is-bottom {
-    transform: rotate(-45deg);
-  } */
+  }  
 
 
   
