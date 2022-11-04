@@ -48,7 +48,7 @@
   flex-direction: column;
 }
 
-#invisible-text-one, #invisible-text-two, #invisible-text-three, #invisible-text-four {
+#invisible-text-one, #invisible-text-two, #invisible-text-three, #invisible-text-four, #invisible-text-five {
   /* visibility: visible; */
   display: none;
   font-family: grotesk;
