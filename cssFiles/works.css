@@ -1,0 +1,30 @@
+#pictures-row
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+
+#single-picture {
+    width: 31vw;
+}
+
+#txt-row {
+    margin-top: 0.7vw;
+    margin-bottom: 3vw;
+    display: flex;
+    font-size: 1.4vw;
+}
+
+#single-txt-first {
+    position: absolute;
+}
+#single-txt-second {
+    position: absolute;
+    left: 34.13vw;
+}
+#single-txt-third {
+    position: absolute;
+    z-index: 0;
+    left: 66.15vw;
+}

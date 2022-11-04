@@ -1,0 +1,86 @@
+#short-description {
+    font-family: grotesk;
+    font-size: 2.6vw;
+    margin-bottom: 2vw;
+}
+
+#forms-and-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#info {
+    width: 39vw;
+    font-size: 2.7vw;
+}
+
+#forms {
+    font-size: 2.7vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#single-form {
+    border: 0.14vw solid black;
+    margin-bottom: 1vw;
+    padding: 0.75vw 0.75vw 0 0.75vw;
+    font-size: 1.5vw;
+    font-family: grotesk;
+    width: 20vw;
+    height: 2.5vw
+}
+
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.noSelect:focus {
+    outline: none !important;
+}
+
+#single-form-third {
+    border: 0.14vw solid black;
+    margin-bottom: 1vw;
+    padding: 0.75vw 0.75vw 0 0.75vw;
+    font-size: 1.5vw;
+    font-family: grotesk;
+    width: 35vw;
+    height: 10vw
+}
+
+#single-form::placeholder{
+    font-family: grotesk;
+    opacity: .8;
+    color: black;
+    font-size: 1.3vw;
+}
+
+#single-form-third::placeholder{
+    font-family: grotesk;
+    opacity: .8;
+    color: black;
+    font-size: 1.3vw;
+}
+
+#custom-btn {
+    border: .7vw solid black;
+    width: 10vw;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 2vw;
+    margin-bottom: 10vw;
+    cursor: pointer;
+}
+
+input[type=text] {
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 80px;
+}

@@ -42,34 +42,34 @@
 }
 
 #all-process {
-     
-    font-size: 2vw;
-    display: flex;
-    flex-direction: column;
+  font-family: grotesk;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
 }
 
 #invisible-text-one, #invisible-text-two, #invisible-text-three, #invisible-text-four {
-    /* visibility: visible; */
-    display: none;
-     
-    max-width: 45vw;
-    margin-left: 2vw;
+  /* visibility: visible; */
+  display: none;
+  font-family: grotesk;
+  max-width: 55vw;
+  margin-left: 2vw;
 }
 
-  #content-single-process {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* padding-top: 0.8vw; */
-    /* padding-bottom: 0.8vw; */
-  }
+#content-single-process {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding-top: 0.8vw; */
+  /* padding-bottom: 0.8vw; */
+}
 
-  #content-with-invisible-text {
-    padding-top: 0.8vw;
-    padding-bottom: 0.8vw;
-    border-top: 0.13vw solid black;
-    width: 50vw;
-  }
+#content-with-invisible-text {
+  padding-top: 1.4vw;
+  padding-bottom: 1.4vw;
+  border-bottom: 0.13vw solid black;
+  width: 55vw;
+}
 
   #achievement {
     font-size: 2vw;
