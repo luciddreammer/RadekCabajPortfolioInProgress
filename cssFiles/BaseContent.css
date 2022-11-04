@@ -56,7 +56,7 @@ body {
     border-top: 0.145vw solid black;
     border-bottom: 0.145vw solid black;
     display: grid;
-    grid-template-columns: 2.05fr 1fr;
+    grid-template-columns: 1.9fr 1fr;
     position: sticky;
     width: 100%;
     top: 40vw;

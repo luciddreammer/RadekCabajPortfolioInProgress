@@ -18,5 +18,5 @@ function invisibleText(id) {
 
 const languageChange = document.getElementById("language");
 
-languageChange.innerHTML = "<span style='font-weight: bold;' >eng</span>/pl"
+languageChange.innerHTML = "pl<span style='font-weight: bold;' >/en</span>"
 

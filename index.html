@@ -15,7 +15,7 @@
         <div id="navbar-topbar">
             <div id="navbar">
                 <div id="navbar-left">
-                    <div id="navbar-el"><a href="/index.html" id="href-normal-text">home</a></div>
+                    <div id="navbar-el"><a href="/index.html" id="href-normal-text"><span style="font-weight: bold;">home</span></a></div>
                     <div id="navbar-el"><a href="/htmlFiles/works.html" id="href-normal-text">works</a></div>
                     <div id="navbar-el"><a href="/htmlFiles/about.html" id="href-normal-text">about</a></div>
                     <div id="navbar-el"><a href="/htmlFiles/contact.html" id="href-normal-text">contact</a></div>
@@ -32,37 +32,49 @@
                 <div id="view-more">view more</div>
             </div>
             <div id="work-example-content">
-                <img id="work-example-img" src="/images/solvent.png" alt="Solvent project example">
+                <div id="grid-space">
+                        <img class="selected-work-img" id="solvent-img" src="/images/solvent.png" alt="Solvent project example">
+                        <div class="absolute imgOne">Solvent Energy - photovoltaic company brand identity</div>
+                        <img class="selected-work-img" id="card-img" src="/images/card.png" alt="Solvent project example">
+                        <div class="absolute imgTwo">Gold Senior - brand identity for nursing house located in Warsaw</div>
+                        <img class="selected-work-img" id="icons-img" src="/images/icons.png" alt="Solvent project example">
+                        <div class="absolute imgThree">Logopack - archive of logos</div>
+                        <img class="selected-work-img" id="realposter-img" src="/images/realposter.png" alt="Solvent project example">
+                        <div class="absolute imgFour">Botanical Garden brand identity</div>
+                </div>
                 <div id="selected-work-description">
                     <div style="font-family: grotesk; font-size:2.5vw;">design process</div>
                     <div id="description-split">
-                        <div id="design-process-description">every project is another story, my individualistic approach doesn’t exclude executing well-thought design process<br> that utilizes rational use of resources
+                        <div>
+                            <div id="design-process-description">every project is another story, my individualistic approach doesn’t exclude executing well-thought design process<br> that utilizes rational use of resources</div>
+                            <div id="design-process-description" style="margin-top: 2vw;">I believe in a strong collaboration, the best projects are created when both client and desisgner are equally <br>involved in creative process. I try to engage people into solving problems together at the first stages of work</div>
                         </div>
+                        
                         <div id="all-process">
                             <div id="content-with-invisible-text">
-                                <div id="content-single-process">
-                                    <div id="single-process">01 <span style="margin-left: 5vw;">BRIEF</span></div>
+                                <div id="content-single-process" style = "border-top: 0.13vw solid black;">
+                                    <div id="single-process" style="padding-top: 1.4vw;">01 <span style="margin-left: 5vw;" >BRIEF</span></div>
                                     <span onclick="invisibleText('invisible-text-one')" class="arrow is-bottom"></span>
                                 </div>
                                 <div id="invisible-text-one">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has </div>
                             </div>
                             <div id="content-with-invisible-text">
                                 <div id="content-single-process">
-                                    <div id="single-process">02 <span style="margin-left: 5vw;">BRIEF</span></div>
+                                    <div id="single-process">02 <span style="margin-left: 4.7vw;">RESEARCH & ANALYSIS</span></div>
                                     <span onclick="invisibleText('invisible-text-two')" class="arrow is-bottom"></span>
                                 </div>
                                 <div id="invisible-text-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has </div>
                             </div>
                             <div id="content-with-invisible-text">
                                 <div id="content-single-process">
-                                    <div id="single-process">03 <span style="margin-left: 5vw;">BRIEF</span></div>
+                                    <div id="single-process">03 <span style="margin-left: 4.7vw;">DESIGN</span></div>
                                     <span onclick="invisibleText('invisible-text-three')" class="arrow is-bottom"></span>
                                 </div>
                                 <div id="invisible-text-three">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has </div>
                             </div>
                             <div id="content-with-invisible-text">
-                                <div id="content-single-process" style="padding-bottom: 0.8vw; border-bottom:0.13vw solid black;">
-                                    <div id="single-process">04 <span style="margin-left: 5vw;">BRIEF</span></div>
+                                <div id="content-single-process" >
+                                    <div id="single-process">04 <span style="margin-left: 4.7vw;">IMPLEMENTATION</span></div>
                                     <span onclick="invisibleText('invisible-text-four')" class="arrow is-bottom"></span>
                                 </div>
                                 <div id="invisible-text-four">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has </div>
