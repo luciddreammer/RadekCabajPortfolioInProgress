@@ -104,6 +104,7 @@
     font-size: 2vw;
     display: flex;
     flex-direction: column;
+    margin-top: -2vw;
 }
 
 #invisible-text-one, #invisible-text-two, #invisible-text-three, #invisible-text-four {
