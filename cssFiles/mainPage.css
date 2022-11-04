@@ -37,7 +37,7 @@
 #grid-space {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
 }
 
 .selected-work-img {
@@ -68,13 +68,13 @@
 }
 
 #solvent-img {
-  max-width: 50vw;
+  width: 50vw;
   margin-right: 1.3vw;
   margin-bottom: 2vw;
 }
 
 #card-img {
-  max-width: 43vw;
+  width: 43vw;
   padding-bottom: 3vw;
 }
 
