@@ -1,4 +1,4 @@
-# RadekCabajPortfolioInProgress
+# RadekCabajPortfolio - *InProgress*
 
 Page design by Radek Cabaj <br>
 Watch it live:
